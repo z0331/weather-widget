@@ -26,7 +26,7 @@ $(document).ready(function() {
 
     $('.city').click(function(e) {
         
-        let dataString = '{ "appid": "", "units": "imperial"';
+        let dataString = '{ "appid": "/*insert API key*/", "units": "imperial"';
         let city = "";
 
         // Create the dataString for the JSON request depending of user selected predetermined city
