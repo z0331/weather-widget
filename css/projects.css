@@ -1,0 +1,45 @@
+/**
+** CSS styles for individual projects/widgets
+**/
+
+/** Weather App Modules **/
+
+#weather-app {
+    width: 85%;
+}
+
+#city-select, #weather-output {
+    padding: 15px 0 15px 0;
+}
+
+#city-list {
+    width: 15em;
+    border-right: 1px solid black;
+}
+
+#city-list li {
+    display: block;
+    list-style-type: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#city-list li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    background: #00aeef;
+}
+
+#weather-output {
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+#weather-icon {
+    float: left;
+    padding-right: 10px;
+}
+
+#weather-info {
+    padding-top: 10px;
+}
